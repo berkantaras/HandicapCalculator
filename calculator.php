@@ -32,7 +32,7 @@ if(isset($hesapla))
 		<table border = "1" align = "center">
 			<tr>
 				<th>Sizin GoRunuz</th>
-				<th><input type="number" name="gor1" value="<?php  echo @$gor1;?>"/></th>
+				<th><input type = "number" name = "gor1" value = "<?php  echo @$gor1;?>"/></th>
 			</tr>
 
 			<tr>
@@ -50,7 +50,7 @@ if(isset($hesapla))
 
 			<tr>
    				<th>Avansı Alan</th>
-   				<th><input type="string" readonly="readonly" disabled="disabled" value="<?php  echo @$avansalan;?>"/></th>
+   				<th><input type = "string" readonly = "readonly" disabled = "disabled" value = "<?php  echo @$avansalan;?>"/></th>
 			</tr>
 
 			<tr>
